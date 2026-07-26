@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech News | Contact</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <h1>Tech News</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<section class="featured">
+
+    <h2>Contact Tech News</h2>
+
+    <p class="contact-intro">
+        Use the form below to send a question, suggestion or feedback.
+    </p>
+
+    <form id="contactForm">
+
+        <label for="name">Full Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+        >
+
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+        >
+
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Enter your message"
+            required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Tech News | Designed by Tech Lab</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
